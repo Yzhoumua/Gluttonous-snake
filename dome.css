@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.startPage{
+    width:100%;
+    height:700px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* 游戏开始样式 */
+.startBtn{
+    background-image: url(img/startGame.png);
+    height: 170px;
+    width: 200px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+/* 开始游戏点击盒子按钮样式 */
+.wrapper{
+    width: 100%;
+    height:700px;
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+/* 游戏背景样式 */
+.left-side{
+    width:24%;
+    position: absolute;
+    height:700px;
+}
+/* 游戏开始/暂停样式 */
+.left-side img{
+    display: none;
+    margin-left:10px;
+    margin-top:10px;
+}
+/* 游戏开始/暂停图片样式 */
+.main{
+    position: absolute;
+    left:25%;
+    width:50%;
+    height:90%;
+}
+/* 贪吃蛇框架样式 */
+.header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+/* 顶端分数盒子样式 */
+.score{
+    line-height: 80px;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* 顶端分数样式 */
+.content{
+    position: absolute;
+    width: 78%;
+    height: 36%;
+    left: 10%;
+    top: 34%;
+}
+/* 贪吃蛇移动范围盒子样式 */
+.loser{
+    position: absolute;;
+    height:600px;
+    margin: auto;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+/* 游戏结束布局样式 */
+.con{
+    background-image: url("img/startP.jpg");
+    background-size: 100% 100%;
+    height:250px;
+    width:250px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    border-radius: 20px;
+
+}
+/* 弹出盒子布局样式 */
+.loserScore{
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    color: #222;
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* 当前得分样式 */
+.close{
+    background-image: url(img/closeBtn.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+/* 弹出盒子样式 */
+.food{
+    background-image: url('img/apple.png');
+    background-size: 100% 100%;
+}
+.head{
+    background-image: url('img/head.png');
+    background-size: 100% 100%;
+}
+
+.body{
+    background-image: url('img/body.png');
+    background-size: 100% 100%;
+}
+
+.Tips{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    background-image: url(img/sj.gif);
+    background-size: 100% 100%;
+    display:none;
+}
+
+.Mobileterminal{
+    width:250px;
+    height: 300px;
+    position: absolute;
+    top:40%;
+    left:1%;
+    display:none;
+}
+#tp{
+    width:65px;
+    height:65px;
+    margin-top: 20%;
+    margin-left:37%;
+    border-radius: 50%;
+    background-image: url(img/s.png);
+    background-size: 100% 100%;
+}
+#lf{
+    width:65px;
+    height:65px;
+    margin-left:11%;
+    float: left;
+    border-radius: 50%;
+    background-image: url(img/z.png);
+    background-size: 100% 100%;
+    
+}
+#rg{
+    width:65px;
+    height:65px;
+    float: right;
+    margin-right:11%;
+    border-radius: 50%;
+    background-image: url(img/y.png);
+    background-size: 100% 100%;
+    
+}
+#bm{
+    width:65px;
+    height:65px;
+    margin-top:25%;
+    margin-left:37%;
+    border-radius: 50%;
+    background-image: url(img/x.png);
+    background-size:100% 100%;
+}
+#suspend{
+    position: absolute;
+    right:2%;
+    top:10%;
+    z-index:999999;
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+   transform:rotate(0deg);
+   background-image:url(img/zt.png);
+}
